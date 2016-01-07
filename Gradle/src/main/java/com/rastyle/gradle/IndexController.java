@@ -15,6 +15,7 @@ public class IndexController {
 		// 다른기능 테스트
 		// 123123 2222222222222
 		// 브랜치 수정
+		// 마스터 브랜치 수정
 		return mav;
 	}
 }

@@ -10,6 +10,7 @@ public class IndexController {
 	@RequestMapping(value="/index.htm")
 	public ModelAndView indexPage(){
 		ModelAndView mav = new ModelAndView("/WEB-INF/views/index.jsp");
+		// Å×½ºÆ®
 		return mav;
 	}
 }

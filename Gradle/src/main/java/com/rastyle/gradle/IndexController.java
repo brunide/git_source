@@ -10,7 +10,8 @@ public class IndexController {
 	@RequestMapping(value="/index.htm")
 	public ModelAndView indexPage(){
 		ModelAndView mav = new ModelAndView("/WEB-INF/views/index.jsp");
-		// 테스트
+		// test 
+		// 원격 저장소 소스 반영 테스트
 		return mav;
 	}
 }

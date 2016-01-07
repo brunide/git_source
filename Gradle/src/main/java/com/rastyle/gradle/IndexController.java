@@ -12,6 +12,7 @@ public class IndexController {
 		ModelAndView mav = new ModelAndView("/WEB-INF/views/index.jsp");
 		// test 
 		// 원격 저장소 소스 반영 테스트
+		// 다른기능 테스트
 		return mav;
 	}
 }

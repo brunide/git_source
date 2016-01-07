@@ -24,6 +24,7 @@ public class IndexInitializer implements WebApplicationInitializer{
 		ServletRegistration.Dynamic dispatcher = servletContext.addServlet("dispatcher", dispatcherServlet);
 		dispatcher.setLoadOnStartup(1);
 		dispatcher.addMapping("*.htm");
+		///wqeqw
 	}
 	
 	private WebApplicationContext createContext(Class<?>...  annotatedClasses){
